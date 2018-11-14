@@ -1,0 +1,28 @@
+.root{
+      flex-grow: 1;
+    }
+    
+.grow {
+      flex-grow: 1;
+    }
+    
+.menuButton {
+      margin-left: -12;
+      margin-right: 20;
+}
+    
+.lnk {
+      text-decoration: none;
+      padding-left: 1em;
+      color: white;
+}
+.heading{
+      text-align: right;
+      margin-left: 70%;
+      font-size: x-large;
+}
+@media only screen and (max-width: 1000px) {
+      .heading {
+          display: none;
+      }
+  }
